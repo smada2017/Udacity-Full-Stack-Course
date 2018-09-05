@@ -20,7 +20,7 @@ Follow the steps below to access the code of this project:
  5. Open Git Bash and launch the virtual machine with`vagrant up`
  6. Once Vagrant installs necessary files use `vagrant ssh` to continue.
  7. Unpack the  database folder contents and move them to the current folder
- 8.  To load the database type `psql -d news -f newsdata.sql`
- 9. To run the database type `psql -d news`
- 10. Use command `python project3.py` to run the python program that fetches query results.
+ 8.  To load the database type using this command `psql -d news -f newsdata.sql`
+ 9. Then run using  `psql -d news`
+ 10. Use command `python project3.py` to run the program with the queries
 
