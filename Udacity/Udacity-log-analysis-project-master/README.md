@@ -18,9 +18,9 @@ Follow the steps below to access the code of this project:
  3. Download [this newspaper database](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) database.
  4. Navigate to the Udacity folder in your terminal and then navigate to the vagrant folder
  5. Open Git Bash and launch the virtual machine with`vagrant up`
- 8. Once Vagrant installs necessary files use `vagrant ssh` to continue.
- 10. Unpack the  database folder contents and move them to the current folder
- 11.  To load the database type `psql -d news -f newsdata.sql`
- 12. To run the database type `psql -d news`
- 14. Use command `python project3.py` to run the python program that fetches query results.
+ 6. Once Vagrant installs necessary files use `vagrant ssh` to continue.
+ 7. Unpack the  database folder contents and move them to the current folder
+ 8.  To load the database type `psql -d news -f newsdata.sql`
+ 9. To run the database type `psql -d news`
+ 10. Use command `python project3.py` to run the python program that fetches query results.
 
